@@ -1,0 +1,20 @@
+﻿@model Team
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete</h1>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <form asp-controller="home" asp-action="Delete" method="post" enctype="multipart/form-data">
+              
+                
+                <input type="hidden" name="Id" value="@Model.Id" />
+                <input type="hidden" name="Image" value="@Model.Image" />
+                <button type="submit" class="btn btn-primary">Delete</button>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,38 @@
+﻿@model Team
+@{
+    ViewData["Title"] = "Update";
+}
+
+<h1>Update</h1>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <form asp-controller="home" asp-action="Update" method="post" enctype="multipart/form-data">
+                <div asp-validation-summary="All"></div>
+                <div class="mb-3">
+                    <label asp-for="Name" class="form-label">Name</label>
+                    <input asp-for="@Model.Name" class="form-control" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Surname" class="form-label">Surname</label>
+                    <input asp-for="@Model.Surname" class="form-control" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Position" class="form-label">Position</label>
+                    <input asp-for="@Model.Position" class="form-control" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Image" class="form-label">Image</label>
+                    <input asp-for="@Model.ImageFile" class="form-control" aria-describedby="emailHelp">
+                    <span asp-validation-for="@Model.ImageFile" class="text-danger"></span>
+                    <img src="~/Uploads/Images/@Model.Image" alt="Alternate Text" height="100" />
+                </div>
+                <input type="hidden" name="Id" value="@Model.Id" />
+                <input type="hidden" name="Image" value="@Model.Image" />
+                <button type="submit" class="btn btn-primary">Update</button>
+            </form>
+        </div>
+    </div>
+</div>

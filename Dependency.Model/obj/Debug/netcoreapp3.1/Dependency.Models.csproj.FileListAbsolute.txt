@@ -1,0 +1,9 @@
+C:\Users\Asus\Desktop\Backend\Dependency\Dependency.Model\bin\Debug\netcoreapp3.1\Dependency.Models.deps.json
+C:\Users\Asus\Desktop\Backend\Dependency\Dependency.Model\bin\Debug\netcoreapp3.1\Dependency.Models.dll
+C:\Users\Asus\Desktop\Backend\Dependency\Dependency.Model\bin\Debug\netcoreapp3.1\Dependency.Models.pdb
+C:\Users\Asus\Desktop\Backend\Dependency\Dependency.Model\obj\Debug\netcoreapp3.1\Dependency.Models.csprojAssemblyReference.cache
+C:\Users\Asus\Desktop\Backend\Dependency\Dependency.Model\obj\Debug\netcoreapp3.1\Dependency.Models.AssemblyInfoInputs.cache
+C:\Users\Asus\Desktop\Backend\Dependency\Dependency.Model\obj\Debug\netcoreapp3.1\Dependency.Models.AssemblyInfo.cs
+C:\Users\Asus\Desktop\Backend\Dependency\Dependency.Model\obj\Debug\netcoreapp3.1\Dependency.Models.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\Backend\Dependency\Dependency.Model\obj\Debug\netcoreapp3.1\Dependency.Models.dll
+C:\Users\Asus\Desktop\Backend\Dependency\Dependency.Model\obj\Debug\netcoreapp3.1\Dependency.Models.pdb
